@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF=8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<h1 id="title">Formulário</h1>
+<p id="description">Conhecimento da empresa</p>
+
+<form id="survey-form" value="checkbox"><fieldset><legend><b>
+  
+  Escolha seu gênero:</legend>
+
+ 
+   <form>
+     
+<input id="sex" type="radio" name="sex" value="male"> Masculino
+<br>
+<input id="sex" type="radio" name="sex" value="female"> Feminino
+</fieldset>
+</form>
+    <br>
+  <br>
+
+  <fieldset>
+<legend>Opcional</legend>
+Sua orientação sexual:
+<form id="sexualidade" >
+  <select id="survey-form"value="orientação">
+    <option value="Bi">Bi</option>
+    <option value="Het">Het</option>
+    <option value="Gay">Gay</option>
+    <option value="Não sabe">Não sabe</option>
+    </select>
+<br>
+<br>
+Possui deficiência?
+<form>
+  <select id="dropdown">
+    <option value="yes">Sim</option>
+    <option value="no">Não</option>
+</select>
+</fieldset>
+</form>
+
+
+<form>
+  
+<br>
+<fieldset>
+<legend>
+Meus dados:
+</legend>
+
+<br>
+
+Nome:
+<br>
+<input id="name"type="text"placeholder="First name" value="First name" required> 
+<label id="name-label" for="First">Seu primeiro nome</label>
+  <br>
+<input id="name" type="text"placeholder="Last name" value="Last name">
+<label id="name-label" for="Last name">Seu último nome</label>
+<br>
+
+</form>
+
+<br>
+
+<form>
+  Email:
+  <input id="email"type="email" placeholder="Seu email" value="email" required>
+  <label id="email-label"for="email">Seu email</label>
+  </form>
+  <form>
+    
+  Celular:
+  <input id="number" type="number" inputmode="numeric" placeholder="Seu número de celular" value="42" min="4" max="8">
+  <label id="number-label"for="number">Seu número de celular</label>
+<br>
+<br>
+</form>
+
+
+<form>
+ 
+  Comentários:
+  
+  <br>
+  <textarea id="survey-form" type="textarea" value="textarea">Caixa de texto</textarea>
+  <label for="textarea"></label>
+  <br>
+<br>
+
+Deseja receber notificações?
+
+<input type="checkbox" id="survey-form" value="Sim">Sim
+<input type="checkbox" id="survey-form" value="Não">Não
+
+
+
+
+  <form>
+    <br>
+    <br>
+  <button id="submit" type="submit">Enviar</button>
+
+</form>
+  </form>
+</fieldset>
+</body>
